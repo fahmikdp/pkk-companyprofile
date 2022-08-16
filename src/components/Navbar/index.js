@@ -2,7 +2,7 @@ import { HiMenuAlt1 } from "react-icons/hi";
 
 const Navbar = () => {
   return (
-    <nav className="navbar bg-success fixed top-0 right-0 left-0 z-[999]">
+    <nav className="navbar bg-white fixed top-0 right-0 left-0 z-[999]">
       <div className="container">
         <div className="flex-1">
           <a className="btn btn-ghost normal-case text-xl">AH</a>
@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="flex-none gap-2">
           <div className="dropdown dropdown-end">
             <label tabIndex="0" className="btn btn-ghost btn-circle">
-              <HiMenuAlt1 className="w-10" size={30} />
+              <HiMenuAlt1 size={30} />
             </label>
             <ul
               tabIndex="0"

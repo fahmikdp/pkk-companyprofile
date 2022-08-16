@@ -1,7 +1,7 @@
 const Footer = () => (
-  <footer className="p-10 bg-success text-base">
-    <div className="footer container">
-      <div>
+  <footer className="p-10 bg-white">
+    <div className="footer container text-base">
+      <div className="">
         <span className="footer-title">Services</span>
         <a className="link link-hover">Branding</a>
         <a className="link link-hover">Design</a>
