@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import Head from "next/head";
-import { Navbar } from "@/components";
+import { Footer, Navbar } from "@/components";
 
 const Layout = ({ children, title }) => (
   <>
@@ -12,6 +12,7 @@ const Layout = ({ children, title }) => (
     <div className="min-h-screen w-full flex flex-col justify-between">
       <Navbar />
       <main>{children}</main>
+      <Footer />
     </div>
   </>
 );

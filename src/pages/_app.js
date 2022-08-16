@@ -1,13 +1,5 @@
 import "@/styles/globals.css";
-import { useEffect } from "react";
-// import "flowbite";
 
-const MyApp = ({ Component, pageProps }) => {
-  useEffect(() => {
-    import( "flowbite");
-  }, []);
-
-  return <Component {...pageProps} />;
-};
+const MyApp = ({ Component, pageProps }) => <Component {...pageProps} />;
 
 export default MyApp;
