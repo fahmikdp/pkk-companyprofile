@@ -11,7 +11,7 @@ const Layout = ({ children }) => (
     </div>
     <div className="min-h-screen w-full flex flex-col justify-between">
       <Navbar />
-      <main className="mt-16">{children}</main>
+      <main className="mt-16 container">{children}</main>
       <Footer />
     </div>
   </>
