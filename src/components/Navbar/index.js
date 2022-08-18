@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="navbar bg-white fixed top-0 right-0 left-0 z-[999]">
       <div className="container">
         <div className="flex-1">
-          <a className="btn btn-ghost normal-case text-xl">AH</a>
+          <a className="btn btn-ghost normal-case text-xl">Company Profile</a>
         </div>
         <div className="flex-none gap-2">
           <div className="dropdown dropdown-end">
@@ -18,7 +18,7 @@ const Navbar = () => {
             >
               <li>
                 <a className="justify-between">
-                  Profile
+                  Home
                   <span className="badge">New</span>
                 </a>
               </li>

@@ -19,6 +19,11 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className="px-5 py-5 bg-slate-100">
+        <h1 className="mb-5 text-5xl font-bold text-center text-neutral-content">
+          Our Services
+        </h1>
+      </div>
     </Layout>
   );
 };
