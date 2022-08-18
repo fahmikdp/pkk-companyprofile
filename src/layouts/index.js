@@ -2,11 +2,11 @@ import PropTypes from "prop-types";
 import Head from "next/head";
 import { Footer, Navbar } from "@/components";
 
-const Layout = ({ children, title }) => (
+const Layout = ({ children }) => (
   <>
     <div>
       <Head>
-        <title>{title} - Next.js</title>
+        <title>Company Profile</title>
       </Head>
     </div>
     <div className="min-h-screen w-full flex flex-col justify-between">
@@ -19,7 +19,6 @@ const Layout = ({ children, title }) => (
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-  title: PropTypes.string.isRequired,
 };
 
 export default Layout;

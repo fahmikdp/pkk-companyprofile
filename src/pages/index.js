@@ -2,7 +2,7 @@ import Layout from "@/layouts";
 
 const Home = () => {
   return (
-    <Layout title="Home">
+    <Layout>
       <div className="min-h-screen">
         <div className="hero min-h-screen bg-[url(/njirs.jpg)] bg-fixed">
           <div className="hero-overlay bg-opacity-60"></div>
