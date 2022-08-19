@@ -2,7 +2,7 @@ import Layout from "@/layouts";
 
 const Home = () => {
   return (
-    <Layout>
+    <Layout title="Home">
       <div className="min-h-screen">
         <div className="hero min-h-screen bg-[url(/njirs.jpg)] bg-fixed">
           <div className="hero-overlay bg-opacity-60"></div>
@@ -19,7 +19,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="px-5 py-5 bg-slate-100">
+      <div className=" py-5 bg-slate-100">
         <h1 className="mb-5 text-5xl font-bold text-center text-neutral-content">
           Our Services
         </h1>
