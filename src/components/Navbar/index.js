@@ -1,4 +1,24 @@
+import Link from "next/link";
 import { HiMenuAlt1 } from "react-icons/hi";
+
+const routes = [
+  {
+    path: "/",
+    name: "Home",
+  },
+  {
+    path: "/about-us",
+    name: "About Us",
+  },
+  {
+    path: "/about-us",
+    name: "Services",
+  },
+  {
+    path: "/contact",
+    name: "Contact Us",
+  },
+];
 
 const Navbar = () => {
   return (
@@ -7,7 +27,18 @@ const Navbar = () => {
         <div className="flex-1">
           <a className="normal-case text-xl">Company Profile</a>
         </div>
-        <div className="flex-none gap-2">
+        <div className="flex-none gap-2 hidden md:block">
+          <ul className="flex justify-between items-center gap-4">
+            {routes.map(({ name, path }, index) => (
+              <li key={index}>
+                <Link href={path}>
+                  <a className="ml-4">{name?.toUpperCase()}</a>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="flex-none gap-2 lg:hidden">
           <div className="dropdown dropdown-end">
             <label tabIndex="0" className="btn btn-ghost btn-circle">
               <HiMenuAlt1 size={30} />
@@ -16,18 +47,13 @@ const Navbar = () => {
               tabIndex="0"
               className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52"
             >
-              <li>
-                <a className="justify-between">
-                  Home
-                  <span className="badge">New</span>
-                </a>
-              </li>
-              <li>
-                <a>Settings</a>
-              </li>
-              <li>
-                <a>Logout</a>
-              </li>
+              {routes.map(({ name, path }, index) => (
+                <li key={index}>
+                  <Link href={path}>
+                    <a>{name}</a>
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
