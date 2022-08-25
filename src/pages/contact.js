@@ -5,22 +5,27 @@ const Contact = () => {
     <Layout>
       <div>
         <section>
-          <div className="container my-8">
-            <h2 className="text-3xl font-bold">Contact kami</h2>
-          </div>
-        </section>
-        <section>
-          <div className="container flex flex-col justify-center items-center my-12 gap-5">
-            <h2 className="text-5xl">Contact kami</h2>
-            <p className="text-lg font-semibold">
+          <div className="container flex flex-col justify-center items-center gap-5 bg-slate-50 py-10">
+            <h1
+              className="text-center text-5xl font-bold 
+        after:absolute 
+        after:w-24 after:h-1
+        after:left-0 after:right-0
+        after:m-auto
+        after:bg-black
+        after:mt-16"
+            >
+              Contact Kami
+            </h1>
+            <p className="text-lg font-semibold mt-10">
               Isi formulir di bawah ini dan Anda akan segera mendengar kabar
               dari kami
             </p>
             <div className="flex gap-2">
-              <button class="rounded btn btn-active">Gggl</button>
-              <button class="rounded btn btn-active btn-primary">yt</button>
-              <button class="rounded btn btn-active btn-secondary">fb</button>
-              <button class="rounded btn btn-active btn-accent">ig</button>
+              <button class="rounded btn btn-active">GOOGLE</button>
+              <button class="rounded btn btn-active btn-primary">YT</button>
+              <button class="rounded btn btn-active btn-secondary">FB</button>
+              <button class="rounded btn btn-active btn-accent">IG</button>
             </div>
           </div>
         </section>
