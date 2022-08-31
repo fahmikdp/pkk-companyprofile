@@ -39,7 +39,7 @@ const Home = () => {
                   assumenda excepturi exercitationem quasi. In deleniti eaque
                   aut repudiandae et a id nisi.
                 </p>
-                <button className="btn btn-primary">KLICK HERE</button>
+                <button className="btn btn-primary">View More</button>
               </div>
             </div>
           </div>
@@ -74,7 +74,7 @@ const Home = () => {
                   assumenda excepturi exercitationem quasi. In deleniti eaque
                   aut repudiandae et a id nisi.
                 </p>
-                <button className="btn btn-primary">KLICK HERE</button>
+                <button className="btn btn-primary">CLICK HERE</button>
               </div>
             </div>
           </div>

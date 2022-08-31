@@ -38,14 +38,14 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-        <div className="flex-none gap-2 lg:hidden">
+        <div className="flex-none gap-2 md:hidden">
           <div className="dropdown dropdown-end">
             <label tabIndex="0" className="btn btn-ghost btn-circle">
               <HiMenuAlt1 size={30} />
             </label>
             <ul
               tabIndex="0"
-              className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52"
+              className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-slate-50 rounded-box w-52"
             >
               {routes.map(({ name, path }, index) => (
                 <li key={index}>
