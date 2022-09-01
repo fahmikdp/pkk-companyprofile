@@ -8,15 +8,23 @@ const Contact = () => {
         <section className="py-10 xl:px-14 md:px-4 sm:px-4 container">
           <div className="flex flex-col justify-center items-center gap-5">
             <Header title="Contact Here" />
-            <p className="text-lg font-semibold mt-10">
+            <p className="text-lg font-semibold mt-10 text-center">
               Isi formulir di bawah ini dan Anda akan segera mendengar kabar
               dari kami
             </p>
             <div className="flex gap-2">
-              <button class="rounded btn btn-active">GOOGLE</button>
-              <button class="rounded btn btn-active btn-primary">YT</button>
-              <button class="rounded btn btn-active btn-secondary">FB</button>
-              <button class="rounded btn btn-active btn-accent">IG</button>
+              <button class="rounded btn btn-active btn-outline btn-light">
+                <img src="https://img.icons8.com/fluency/30/000000/google-logo.png"></img>
+              </button>
+              <button class="rounded btn btn-active btn-outline btn-light">
+                <img src="https://img.icons8.com/color/30/000000/youtube-play.png" />
+              </button>
+              <button class="rounded btn btn-active btn-outline btn-light">
+                <img src="https://img.icons8.com/color/30/000000/facebook-new.png" />
+              </button>
+              <button class="rounded btn btn-active btn-outline btn-light">
+                <img src="https://img.icons8.com/fluency/30/000000/instagram-new.png" />
+              </button>
             </div>
           </div>
         </section>

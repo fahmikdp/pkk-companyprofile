@@ -1,5 +1,5 @@
 import Layout from "@/layouts";
-import { Card } from "@/components";
+import { Card, Header } from "@/components";
 
 const dataCard = [
   {
@@ -48,10 +48,8 @@ const Home = () => {
       <section className="w-full py-28 bg-slate-100">
         <div className="container py-2 flex flex-col items-center gap-12">
           <div>
-            <h1 className="mb-5 text-5xl font-bold text-center">
-              Our Services
-            </h1>
-            <p className="text-center text-base md:text-lg">
+            <Header title="Our Services" />
+            <p className="text-center mt-10 md:text-lg">
               Silahkan menghubungi kami jika anda membutuhkan layanan berikut
             </p>
           </div>
