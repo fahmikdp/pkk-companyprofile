@@ -14,7 +14,7 @@ const Contact = () => {
             </p>
             <div className="flex gap-2">
               <button class="rounded btn btn-active btn-outline btn-light">
-                <img src="https://img.icons8.com/fluency/30/000000/google-logo.png"></img>
+                <img src="https://img.icons8.com/fluency/30/000000/google-logo.png" />
               </button>
               <button class="rounded btn btn-active btn-outline btn-light">
                 <img src="https://img.icons8.com/color/30/000000/youtube-play.png" />

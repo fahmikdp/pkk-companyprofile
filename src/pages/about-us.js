@@ -1,6 +1,29 @@
 import Layout from "@/layouts";
-import { Header } from "@/components";
-import { FaFacebookF } from "react-icons/fa";
+import { Header, CardProfile } from "@/components";
+
+const dataprofile = [
+  {
+    pathfb: "",
+    pathig: "",
+    img: "/heker.jpg",
+    name: "Jancuk Pristel",
+    role: "CEO / FOUNDER",
+  },
+  {
+    pathfb: "",
+    pathig: "",
+    img: "/hitomi.jpg",
+    name: "Ayank aku di jepun",
+    role: "CO FOUNDER",
+  },
+  {
+    pathfb: "",
+    pathig: "",
+    img: "/heker.jpg",
+    name: "Muhammad Ibnu",
+    role: "Programmer Pengalaman 2hari",
+  },
+];
 
 const AboutUs = () => {
   return (
@@ -68,20 +91,17 @@ const AboutUs = () => {
           <br />
           <p className="text-3xl font-extrabold">Our Team!</p>
           <br />
-
-          <div class="card w-96 bg-slate-50 shadow-xl">
-            <figure class="px-10 pt-10">
-              <img src="/heker.jpg" alt="Shoes" class="rounded-full" />
-            </figure>
-            <div class="card-body items-center text-center">
-              <h2 class="card-title text-2xl">Jancuk Pristel</h2>
-              <i className="text-zinc-600 ">CEO / FOUNDER</i>
-              <div class="card-actions font-light ">
-                <button class="btn btn-primary rounded-full">
-                  <FaFacebookF />
-                </button>
-              </div>
-            </div>
+          <div className="flex justify-center gap-6 flex-wrap">
+            {dataprofile.map(({ img, name, role, pathfb, pathig }, index) => (
+              <CardProfile
+                img={img}
+                name={name}
+                role={role}
+                pathfb={pathfb}
+                pathig={pathig}
+                key={index}
+              />
+            ))}
           </div>
         </div>
       </section>
