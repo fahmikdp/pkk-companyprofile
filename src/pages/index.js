@@ -30,7 +30,7 @@ const Home = () => {
       <section className="min-h-screen">
         <div className="hero min-h-screen bg-[url(/njirs.jpg)] bg-fixed">
           <div className="hero-overlay bg-opacity-60"></div>
-          <div className="container flex justify-center">
+          <div className="container flex justify-center items-center">
             <div className="hero-content text-center text-neutral-content">
               <div className="max-w-md">
                 <h1 className="mb-5 text-5xl font-bold">Farhan Kebab</h1>
