@@ -14,14 +14,14 @@ const CardProfile = ({ img, name, role, pathfb, pathig }) => {
           <h2 class="card-title text-2xl">{name}</h2>
           <i className="text-zinc-600 ">{role}</i>
           <div class="card-actions font-light mt-2">
-            <button class="btn btn-primary rounded-full">
+            <button class="btn btn-circle btn-primary">
               <a href={pathfb}>
-                <FaFacebookF />
+                <FaFacebookF className="text-lg" />
               </a>
             </button>
-            <button class="btn btn-primary rounded-full">
+            <button class="btn btn-circle btn-primary">
               <a href={pathig}>
-                <AiFillInstagram />
+                <AiFillInstagram className="text-lg" />
               </a>
             </button>
           </div>

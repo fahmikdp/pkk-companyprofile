@@ -4,23 +4,23 @@ import { Header, CardProfile } from "@/components";
 const dataprofile = [
   {
     pathfb: "",
-    pathig: "",
-    img: "/heker.jpg",
-    name: "Jancuk Pristel",
+    pathig: "https://www.instagram.com/kochan4php/",
+    img: "/bjorka.jpg",
+    name: "Bjorkanism",
     role: "CEO / FOUNDER",
   },
   {
     pathfb: "",
-    pathig: "",
-    img: "/hitomi.jpg",
-    name: "Ayank aku di jepun",
+    pathig: "https://www.instagram.com/fahmikdp/",
+    img: "/anonym.jpg",
+    name: "FF_r1skY_h3NgKeRr21",
     role: "CO FOUNDER",
   },
   {
     pathfb: "",
-    pathig: "",
+    pathig: "https://www.instagram.com/_prayudhaibnu/",
     img: "/heker.jpg",
-    name: "Muhammad Ibnu",
+    name: "IbnuTzy",
     role: "Programmer Pengalaman 2hari",
   },
 ];

@@ -67,7 +67,7 @@ const Contact = () => {
                     type="Messege"
                     placeholder="Pesan"
                   />
-                  <button class="btn">Kirim pesan</button>
+                  <button class="btn btn-primary">Kirim pesan</button>
                 </div>
               </div>
             </form>
