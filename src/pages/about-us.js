@@ -42,7 +42,7 @@ const AboutUs = () => {
               />
               <div>
                 <h1 className="text-3xl lg:text-4xl font-bold mt-5 xl:mt-0">
-                  Who&apos;re we? Njir
+                  Who&apos;re we?
                 </h1>
                 <p className="py-6 ">
                   <b>Company Profile</b> is a company that specializes in
