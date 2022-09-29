@@ -12,16 +12,16 @@ const CardProfile = ({ img, name, role, pathfb, pathig }) => {
         </figure>
         <div className="card-body items-center text-center">
           <h2 className="card-title text-2xl">{name}</h2>
-          <i classNameName="text-zinc-600 ">{role}</i>
+          <i className="text-zinc-600 ">{role}</i>
           <div className="card-actions font-light mt-2">
             <button className="btn btn-circle btn-primary">
               <a href={pathfb}>
-                <FaFacebookF classNameName="text-lg" />
+                <FaFacebookF className="text-lg" />
               </a>
             </button>
             <button className="btn btn-circle btn-primary">
               <a href={pathig}>
-                <AiFillInstagram classNameName="text-lg" />
+                <AiFillInstagram className="text-lg" />
               </a>
             </button>
           </div>

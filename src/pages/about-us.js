@@ -28,10 +28,10 @@ const dataprofile = [
 const AboutUs = () => {
   return (
     <Layout>
-      <section classNameName="py-10 xl:px-14 md:px-4 sm:px-4 container">
+      <section className="py-10 xl:px-14 md:px-4 sm:px-4 container">
         <Header title="About Us" />
-        <div classNameName="mt-10 text-center">
-          <p classNameName="text-xl font-bold ">We Are In Depth</p>
+        <div className="mt-10 text-center">
+          <p className="text-xl font-bold ">We Are In Depth</p>
           <br />
 
           <div className="hero bg-slate-50">
@@ -79,19 +79,19 @@ const AboutUs = () => {
           </div>
 
           <br />
-          <p classNameName="text-xl font-bold text-center">Vision</p>
+          <p className="text-xl font-bold text-center">Vision</p>
           <p>
             Providing appropriate solutions, right price and right on target.
           </p>
 
           <br />
-          <p classNameName="text-xl font-bold text-center">Mission</p>
+          <p className="text-xl font-bold text-center">Mission</p>
           <p>Building the needs of industry and other software needed.</p>
           <br />
           <br />
-          <p classNameName="text-3xl font-extrabold">Our Team!</p>
+          <p className="text-3xl font-extrabold">Our Team!</p>
           <br />
-          <div classNameName="flex justify-center gap-6 flex-wrap">
+          <div className="flex justify-center gap-6 flex-wrap">
             {dataprofile.map(({ img, name, role, pathfb, pathig }, index) => (
               <CardProfile
                 img={img}
