@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { HiMenuAlt1 } from "react-icons/hi";
-// import { useEffect, useState } from "react";
 
 const routes = [
   {
@@ -22,28 +21,12 @@ const routes = [
 ];
 
 const Navbar = () => {
-  // const [color, setColor] = useState(false);
-
-  // const ChangeColor = () => {
-  //   if (window.scrollY >= 90) {
-  //     setColor(true);
-  //   } else {
-  //     setColor(false);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   window.addEventListener("scroll", ChangeColor);
-  // }, []);
-
   return (
-    <div
-    //  className={color ? "bg-red-500" : "bg-transparent"}
-    >
+    <div>
       <nav className="navbar bg-white fixed top-0 right-0 left-0 z-[999]">
         <div className="container">
           <div className="flex-1">
-            <a className="normal-case text-xl">Company Profile</a>
+            <a className="normal-case text-xl">CP_RPL</a>
           </div>
           <div className="flex-none gap-2 hidden md:block">
             <ul className="flex justify-between items-center gap-4">
