@@ -6,20 +6,20 @@ import { AiFillInstagram } from "react-icons/ai";
 const CardProfile = ({ img, name, role, pathfb, pathig }) => {
   return (
     <div>
-      <div class="card w-90 bg-slate-50 shadow-xl">
-        <figure class="px-10 pt-8 w-[260px] h-[260px] mx-auto">
-          <img src={img} alt="Shoes" class="rounded-full" />
+      <div className="card w-90 bg-slate-50 shadow-xl">
+        <figure className="px-10 pt-8 w-[260px] h-[260px] mx-auto">
+          <img src={img} alt="Shoes" className="rounded-full" />
         </figure>
-        <div class="card-body items-center text-center">
-          <h2 class="card-title text-2xl">{name}</h2>
+        <div className="card-body items-center text-center">
+          <h2 className="card-title text-2xl">{name}</h2>
           <i className="text-zinc-600 ">{role}</i>
-          <div class="card-actions font-light mt-2">
-            <button class="btn btn-circle btn-primary">
+          <div className="card-actions font-light mt-2">
+            <button className="btn btn-circle btn-primary">
               <a href={pathfb}>
                 <FaFacebookF className="text-lg" />
               </a>
             </button>
-            <button class="btn btn-circle btn-primary">
+            <button className="btn btn-circle btn-primary">
               <a href={pathig}>
                 <AiFillInstagram className="text-lg" />
               </a>

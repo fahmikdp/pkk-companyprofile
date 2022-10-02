@@ -51,7 +51,7 @@ export default function Services() {
         <Header title="Software Application" />
         <div className="flex justify-center  gap-6 flex-wrap mt-16">
           {logo.map((l, index) => (
-            <img src={l} key={index} alt="logo" class=" h-[100px] rounded-md" />
+            <img src={l} key={index} alt="logo" className=" h-[100px] rounded-md" />
           ))}
         </div>
       </section>

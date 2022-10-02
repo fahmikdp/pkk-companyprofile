@@ -34,17 +34,17 @@ const AboutUs = () => {
           <p className="text-xl font-bold ">We Are In Depth</p>
           <br />
 
-          <div class="hero bg-slate-50">
-            <div class="hero-content flex-col lg:flex-row">
+          <div className="hero bg-slate-50">
+            <div className="hero-content flex-col lg:flex-row">
               <img
                 src="/images.jpg"
-                class="xl:min-w-[500px] md:min-w-[400px] sm:min-w-[300px] rounded-lg shadow-2xl"
+                className="xl:min-w-[500px] md:min-w-[400px] sm:min-w-[300px] rounded-lg shadow-2xl"
               />
               <div>
-                <h1 class="text-3xl lg:text-4xl font-bold mt-5 xl:mt-0">
-                  Who're we?
+                <h1 className="text-3xl lg:text-4xl font-bold mt-5 xl:mt-0">
+                  Who&apos;re we?
                 </h1>
-                <p class="py-6 ">
+                <p className="py-6 ">
                   <b>Company Profile</b> is a company that specializes in
                   software development and automation technology. Based on more
                   than ten years experience the company was later established in
@@ -57,23 +57,23 @@ const AboutUs = () => {
 
           <br />
 
-          <div class="hero bg-slate-50 -mt-5 lg:mt-0">
-            <div class="hero-content flex-col lg:flex-row-reverse">
+          <div className="hero bg-slate-50 -mt-5 lg:mt-0">
+            <div className="hero-content flex-col lg:flex-row-reverse">
               <img
                 src="/companymeeting.jpg"
-                class="xl:min-w-[500px] md:min-w-[400px] sm:min-w-[300px] rounded-lg shadow-2xl"
+                className="xl:min-w-[500px] md:min-w-[400px] sm:min-w-[300px] rounded-lg shadow-2xl"
               />
               <div>
-                <h1 class="text-3xl lg:text-4xl font-bold mt-5 xl:mt-0">
+                <h1 className="text-3xl lg:text-4xl font-bold mt-5 xl:mt-0">
                   Solve your problems!
                 </h1>
-                <p class="py-6 ">
+                <p className="py-6 ">
                   By relying on web technology and mastering linux operating
                   system and understanding of control technology with
                   microcontroller and plc, we offer various solutions for your
                   problems.
                 </p>
-                {/* <button class="btn btn-primary">Get Started</button> */}
+                {/* <button className="btn btn-primary">Get Started</button> */}
               </div>
             </div>
           </div>
