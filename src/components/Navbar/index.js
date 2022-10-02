@@ -42,7 +42,7 @@ const Navbar = () => {
           <div className="flex-none gap-2 md:hidden">
             <div className="dropdown dropdown-end">
               <label tabIndex="0" className="btn btn-ghost btn-circle">
-                <HiMenuAlt1 size={30} />
+                <HiMenuAlt1 size={27} />
               </label>
               <ul
                 tabIndex="0"

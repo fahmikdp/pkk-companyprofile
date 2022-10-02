@@ -12,20 +12,15 @@ export default function Services() {
           <div className="hero-overlay bg-opacity-80 backdrop-blur"></div>
           <div className="container flex justify-center ">
             <div className="hero-content text-center text-neutral-content">
-              <div className="max-w-2xl">
-                <h1 className="mb-5 text-5xl font-bold">
+              <div className="max-w-xl">
+                <h1 className="mb-5 text-3xl lg:text-5xl font-bold">
                   Web Based Application
                 </h1>
                 <p className="mb-5">
                   Web-based applications or commonly called Web Applications
                   have several advantages including not requiring computer
                   qualifications and not requiring installation. To open it not
-                  only on certain computers like desktop applications. If a
-                  desktop application, to run the program requires an
-                  installation process (installation) first, then it is
-                  different from the case with web applications that do not
-                  require installation process. All you need is an adequate
-                  internet connection.
+                  only on certain computers like desktop applications.
                 </p>
 
                 <button className="btn btn-primary">View More</button>
@@ -38,6 +33,11 @@ export default function Services() {
         <div className="xl:px-12">
           {/* <Header title="Our Services" /> */}
           <p className="text-center my-10 md:text-lg">
+            If a desktop application, to run the program requires an
+            installation process (installation) first, then it is different from
+            the case with web applications that do not require installation
+            process. All you need is an adequate internet connection. <br />
+            <br />
             We accept Web Application creation services (special web-based
             applications) for specific task needs with features needed. The
             process of creating a web application will be developed using{" "}
@@ -51,7 +51,12 @@ export default function Services() {
         <Header title="Software Application" />
         <div className="flex justify-center  gap-6 flex-wrap mt-16">
           {logo.map((l, index) => (
-            <img src={l} key={index} alt="logo" className=" h-[100px] rounded-md" />
+            <img
+              src={l}
+              key={index}
+              alt="logo"
+              className=" h-[100px] rounded-md"
+            />
           ))}
         </div>
       </section>
