@@ -28,12 +28,14 @@ const Home = () => {
   return (
     <Layout title="Home">
       <section className="min-h-screen">
-        <div className="hero min-h-screen bg-[url(/njirs.jpg)] bg-fixed">
+        <div className="hero min-h-screen bg-[url(/coding.webp)] bg-fixed">
           <div className="hero-overlay bg-opacity-60"></div>
           <div className="container flex justify-center items-center">
             <div className="hero-content text-center text-neutral-content">
               <div className="max-w-md">
-                <h1 className="mb-5 text-5xl font-bold">Farhan Kebab</h1>
+                <h1 className="mb-5 text-5xl font-bold">
+                  PT Sejahtera Bersama
+                </h1>
                 <p className="mb-5">
                   Provident cupiditate voluptatem et in. Quaerat fugiat ut
                   assumenda excepturi exercitationem quasi. In deleniti eaque
@@ -61,12 +63,14 @@ const Home = () => {
         </div>
       </section>
       <section className="h-96">
-        <div className="hero h-96 bg-[url(/njirs.jpg)] bg-fixed">
+        <div className="hero h-96 bg-[url(/coding.webp)] bg-fixed">
           <div className="hero-overlay bg-opacity-60"></div>
           <div className="container flex justify-center">
             <div className="hero-content text-center text-neutral-content">
               <div className="max-w-md">
-                <h1 className="mb-5 text-5xl font-bold">Farhan Kebab</h1>
+                <h1 className="mb-5 text-5xl font-bold">
+                  PT Sejahtera Bersama
+                </h1>
                 <p className="mb-5">
                   Provident cupiditate voluptatem et in. Quaerat fugiat ut
                   assumenda excepturi exercitationem quasi. In deleniti eaque
