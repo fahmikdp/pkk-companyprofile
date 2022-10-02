@@ -21,7 +21,7 @@ const Footer = () => (
       </div>
       <div>
         <span className="footer-title">Social</span>
-        <div className="grid grid-flow-col gap-4">
+        <div className="grid grid-flow-col gap-3">
           <a>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -56,6 +56,10 @@ const Footer = () => (
             </svg>
           </a>
         </div>
+        <br />
+        <p>
+          &copy; 2022 <b>Kelompok Fahmi</b>
+        </p>
       </div>
     </div>
   </footer>
